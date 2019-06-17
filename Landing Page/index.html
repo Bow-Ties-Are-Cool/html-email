@@ -199,10 +199,9 @@ table td { border-collapse: collapse; }
       box-sizing: border-box;
     }
 
-   .planning-box {
-      width: 62%;
-      padding: 12px 20px;
-      margin: 8px 0;
+    .planning-box {
+      width:85%;
+      padding: 2px;
       display: inline-block;
       border: 1px solid #ccc;
       border-radius: 4px;
@@ -372,9 +371,9 @@ table td { border-collapse: collapse; }
                         Info
                         <select>
                           <option selected disabled>Choose here</option>
+                          <option>All</option>                         
                           <option>Revenue</option>
                           <option>Expense</option>
-                          <option>Budget</option>
                         </select>
                       </td>
                       <td class="button">
@@ -471,7 +470,7 @@ table td { border-collapse: collapse; }
                       </td>
                     </tr>
                     <tr>
-                          <td colspan="4"><a href=""><img width="600" height="500" src="http://city-plot.joshquizzes.com/Fire" alt="logo"></a></td>
+                      <td colspan="4"><a href=""><img width="600" height="500" src="http://city-plot.joshquizzes.com/Fire" alt="Unable To Load Graph &#128542"></a></td>
                     </tr>
                     <tr>
                       <td class="item-col item mobile-row-padding"></td>
@@ -480,6 +479,41 @@ table td { border-collapse: collapse; }
                       <td class="item-col price"></td>
                     </tr>
 
+
+                    <tr>
+                      <td class="title-dark" width="300">
+                        Planning
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="title-drop" width="163">
+                        Department
+                        <select>
+                          <option selected disabled>Choose here</option>
+                          <option>Fire Department</option>
+                          <option>Police Department</option>
+                          <option>Department of Health Services</option>
+                          <option>Parks and Recreation</option>
+                          <option>Sewage & Waste Managment</option>
+                        </select>
+                      </td>
+                      <td colspan="2" class="title-drop">
+Square Footage
+                        <form>
+                          <input class="planning-box" type="text" name="Email@email.com"> ft <sup>2</sup>
+                        </form>
+                      </td>
+                      <td class="button">
+                        <div><!--[if mso]>
+                            <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:45px;v-text-anchor:middle;width:155px;" arcsize="15%" strokecolor="#ffffff" fillcolor="#ff6f6f">
+                            <w:anchorlock/>
+                            <center style="color:#ffffff;font-family:Helvetica, Arial, sans-serif;font-size:14px;font-weight:regular;">My Account</center>
+                            </v:roundrect>
+                        <![endif]--><a href="http://"
+                                       style="background-color:#ff6f6f;border-radius:5px;color:#ffffff;display:inline-block;font-family:'Cabin', Helvetica, Arial, sans-serif;font-size:14px;font-weight:regular;line-height:45px;text-align:center;text-decoration:none;width:100%;-webkit-text-size-adjust:none;mso-hide:all;">Add Building</a></div>
+                      </td>
+          
+                    </tr>
                     <tr>
                       <td class="title-dark" width="300">
                         Send Email
@@ -488,7 +522,7 @@ table td { border-collapse: collapse; }
                     <tr>
                       <td class="item-col item mobile-row-padding">
                         <form>
-                          Email: <input class="email-box" type="text" name="Email@email.com"><br>
+                          Recipient Email: <input class="email-box" type="text" name="Email@email.com"><br>
                         </form> 
 
                       </td>
@@ -500,28 +534,6 @@ table td { border-collapse: collapse; }
                             </v:roundrect>
                         <![endif]--><a href="http://"
                                        style="background-color:#ff6f6f;border-radius:5px;color:#ffffff;display:inline-block;font-family:'Cabin', Helvetica, Arial, sans-serif;font-size:14px;font-weight:regular;line-height:45px;text-align:center;text-decoration:none;width:100%;-webkit-text-size-adjust:none;mso-hide:all;">Send Email</a></div>
-                      </td>
-                      <td class="item-col price"></td>
-                    </tr>
-                    <tr>
-                      <td class="title-dark" width="300">
-                        Planning
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="item-col item mobile-row-padding">
-                        <form>
-                          Square Foot: <input class="planning-box" type="text" name="Email@email.com"><br>
-                        </form>
-                      </td>
-                      <td class="button">
-                        <div><!--[if mso]>
-                            <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:45px;v-text-anchor:middle;width:155px;" arcsize="15%" strokecolor="#ffffff" fillcolor="#ff6f6f">
-                            <w:anchorlock/>
-                            <center style="color:#ffffff;font-family:Helvetica, Arial, sans-serif;font-size:14px;font-weight:regular;">My Account</center>
-                            </v:roundrect>
-                        <![endif]--><a href="http://"
-                                       style="background-color:#ff6f6f;border-radius:5px;color:#ffffff;display:inline-block;font-family:'Cabin', Helvetica, Arial, sans-serif;font-size:14px;font-weight:regular;line-height:45px;text-align:center;text-decoration:none;width:100%;-webkit-text-size-adjust:none;mso-hide:all;">Add Building</a></div>
                       </td>
                       <td class="item-col price"></td>
                     </tr>
